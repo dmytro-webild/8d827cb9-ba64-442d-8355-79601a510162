@@ -5,18 +5,18 @@
 
 :root {
   /* @colorThemes/lightTheme/grayNavyBlue */
-  --background: #f8f9fb;
-  --card: #ffffff;
-  --foreground: #0B2D5C;
-  --primary-cta: #D4AF37;
-  --primary-cta-text: #0B2D5C;
-  --secondary-cta: #0B2D5C;
-  --secondary-cta-text: #ffffff;
-  --accent: #e3c978;
-  --background-accent: #c1a243;
+  --background: #071A2E;
+  --card: rgba(255,255,255,0.05);
+  --foreground: #FFFFFF;
+  --primary-cta: #00D4C7;
+  --primary-cta-text: #071A2E;
+  --secondary-cta: #FF4DA6;
+  --secondary-cta-text: #FFFFFF;
+  --accent: #C7D2FE;
+  --background-accent: #0E2F44;
 
   /* @layout/border-radius/rounded */
-  --radius: 0.5rem;
+  --radius: 1.5rem;
 
   /* @layout/content-width/medium */
   --width-content-width: clamp(40rem, 72.5vw, 100rem);
