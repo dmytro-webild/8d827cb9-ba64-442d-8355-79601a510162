@@ -169,6 +169,7 @@ export default function HomePage() {
       tag="PERFORMANCE"
       title="Data-Driven Success"
       description="We don't just design websites; we drive tangible results for your practice."
+      textAnimation="slide-up"
       metrics={[
         {
           value: "45%",
@@ -208,6 +209,7 @@ export default function HomePage() {
       tag="CLIENT TRUST"
       title="Voices of Excellence"
       description="Hear what successful dental practices have to say about working with us."
+      textAnimation="slide-up"
       testimonials={[
         {
           name: "Dr. Sarah Miller",
@@ -247,6 +249,7 @@ export default function HomePage() {
   <div id="faq" data-section="faq">
     <SectionErrorBoundary name="faq">
           <FaqSplitMedia
+      textAnimation="slide-up"
       tag="SUPPORT"
       title="Frequently Asked Questions"
       description="Common questions regarding our process and dental web services."
@@ -277,6 +280,7 @@ export default function HomePage() {
     <SectionErrorBoundary name="contact">
           <ContactCta
       tag="READY TO GROW?"
+      textAnimation="slide-up"
       text="Start your journey toward a world-class dental website today. Book a free consultation."
       primaryButton={{
         text: "Book Free Consultation",
